@@ -1,0 +1,113 @@
+body {
+    background-color: #202124;
+}
+
+img {
+    width: 272px;
+    position: relative;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    max-height: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.search {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #202124;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    box-shadow: none;
+    width: 638px;
+    max-width: 584px;
+    min-height: 44px;
+    background-image: url("../images/search.png");
+    background-size: 20px 20px;
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.buttonsSearch,
+.buttonsLucky {
+    padding-top: 18px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttonsLucky {
+    margin: 11px 7px;
+    line-height: 33px;
+    height: 34px;
+    min-width: 54px;
+    max-width: 150px;
+    text-decoration: none;
+}
+
+.buttonsImages,
+.buttonsSettings,
+.buttonsSettingsImages {
+    color: white;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    float: right;
+}
+
+.buttonsSettingsImages{
+    margin-top:40vh;
+}
+
+.buttonsSettings {
+    margin-top:35vh;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    margin-top: 100px;
+}
+
+.form {
+    display: inline-grid;
+    align-items: center;
+}
+
+footer {
+    background-color: #171717;
+    width: 100%;
+    text-align: center;
+}
+
+input, select, textarea{
+    color: #e7e7e7;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input:focus {
+  background-color: #303134;
+  border: #303134;
+}
